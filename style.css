@@ -27,7 +27,7 @@ body {
 .one { 
   grid-area: 1 / 1 / 2 / 3;
   background-color: #7541c8;
-  background-image: url(https://tareqezini.github.io/Challenge-N08/images/bg-pattern-quotation.svg);
+  background-image: url(./images/bg-pattern-quotation.svg);
   background-repeat: no-repeat;
   background-position: 80% 10%;
   color: #ffffff;
@@ -68,19 +68,19 @@ h2 {
   border: 2px solid #777;
 }
 .picone {
-  background-image: url('https://rfzamith.github.io/dev/frontendmentor-testimonials-grid-section/images/image-daniel.jpg');
+  background-image: url('./images/image-daniel.jpg');
 }
 .pictwo {
-  background-image: url('https://rfzamith.github.io/dev/frontendmentor-testimonials-grid-section/images/image-jonathan.jpg');
+  background-image: url('./images/image-jonathan.jpg');
 }
 .picthree {
-  background-image: url('https://rfzamith.github.io/dev/frontendmentor-testimonials-grid-section/images/image-jeanette.jpg');
+  background-image: url('./images/image-jeanette.jpg');
 }
 .picfour {
-  background-image: url('https://rfzamith.github.io/dev/frontendmentor-testimonials-grid-section/images/image-patrick.jpg');
+  background-image: url('./images/image-patrick.jpg');
 }
 .picfive {
-  background-image: url('https://rfzamith.github.io/dev/frontendmentor-testimonials-grid-section/images/image-kira.jpg');
+  background-image: url('./images/image-kira.jpg');
 }
 .name {
   padding-left: 20px;
