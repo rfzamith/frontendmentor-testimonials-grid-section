@@ -7,7 +7,7 @@ body {
   background-color: #edf2f8;
 }
 
- .parent {
+.parent {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -103,6 +103,16 @@ h2 {
   margin-bottom: 0px;
 }
 
+footer {
+	text-align:center;
+	padding: 1rem;
+}
+footer .attribution {
+	font-size:0.9rem;
+}
+footer .attribution a {
+	color: #555;
+}
 @media screen and (max-width: 768px) {
   .one, .two, .three, .four, .five {
     
