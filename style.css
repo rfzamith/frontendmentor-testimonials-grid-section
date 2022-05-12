@@ -2,20 +2,33 @@
 
 body {
   font-family: 'Barlow Semi Condensed', sans-serif;
-  font-weight: 300;
-  font-size: 13px;
+  font-size: 1rem;
   background-color: #edf2f8;
 }
 
-.parent {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
-  max-width: 1200px;
-  padding: 1.5rem 3rem;
-  margin: 0 auto;
+@media screen and (max-width: 768px) {
+	.one, .two, .three, .four, .five {
+    
+	}
+
+	main {
+    	display: block;
+    	padding: 15px;
+	}
+}
+
+@media screen and (min-width: 769px) {
+
+	main {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		grid-template-rows: repeat(2, 1fr);
+		grid-column-gap: 0px;
+		grid-row-gap: 0px;
+		max-width: 1200px;
+		padding: 1.5rem 3rem;
+		margin: 0 auto;
+	}
 }
 .box {
   margin: 10px;
@@ -92,14 +105,14 @@ h2 {
   margin-top: 5px;
 }
 #testimonial-one {
-  font-size: 19px;
+  font-size: 1.2rem;
   font-weight: 500;
   margin-top: 10px;
 }
 #testimonial-two {
   opacity: 0.5;
-  font-weight: 400;
-  line-height: 18px;
+  line-height: 1.2rem;
+  font-size: 1rem;
   margin-bottom: 0px;
 }
 
@@ -112,13 +125,4 @@ footer .attribution {
 }
 footer .attribution a {
 	color: #555;
-}
-@media screen and (max-width: 768px) {
-  .one, .two, .three, .four, .five {
-    
-  }
-  .parent {
-    display: block;
-    padding: 15px;
-  }
 }
